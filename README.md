@@ -33,8 +33,11 @@ Users can create Line, Circle, and Polygon shapes.
 
 Users can also create arbitrary groupings of shapes to create new shapes.  
 
-Drawings can be output for display by client code (not your code). You must support that effort by designing and providing an interface. Your code should provide a test case for exercising drawing with a .  
+Drawings can be output for display by client code (not your code). You must support that effort by designing and providing an interface. Your code should provide a test case for exercising a drawing with adding, drawing, writing, and reading shapes.  
 
 Persist a drawing to and from a text stream. Create an interface for drawing and demonstrate test usage by a client.  
 
+Tip:
+-  It will be easier for you to explain your solution with the aid of a UML class diagram when you present.  
+-  [JSON for Modern C++](https://github.com/nlohmann/json)  
 ###
