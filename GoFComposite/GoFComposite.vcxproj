@@ -18,6 +18,25 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="BesserComposite.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="component.h" />
+    <ClInclude Include="composite.h" />
+    <ClInclude Include="leaf0.h" />
+    <ClInclude Include="leaf1.h" />
+    <ClInclude Include="leaf2.h" />
+    <ClInclude Include="leafn.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="composite.cpp" />
+    <ClCompile Include="leaf1.cpp" />
+    <ClCompile Include="leaf2.cpp" />
+    <ClCompile Include="leafn.cpp" />
+    <ClCompile Include="leaft0.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{58F4433C-6ED9-4343-9334-3FC8D66532D8}</ProjectGuid>
