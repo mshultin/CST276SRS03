@@ -18,6 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abstractdrawer.h" />
+    <ClInclude Include="abstractdrawing.h" />
+    <ClInclude Include="circle.h" />
+    <ClInclude Include="concretedrawer.h" />
+    <ClInclude Include="concretedrawing.h" />
+    <ClInclude Include="line.h" />
+    <ClInclude Include="point.h" />
+    <ClInclude Include="shape.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abstractdrawer.cpp" />
+    <ClCompile Include="abstractdrawing.cpp" />
+    <ClCompile Include="circle.cpp" />
+    <ClCompile Include="line.cpp" />
+    <ClCompile Include="point.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{76F11589-6542-4592-8FA1-6702EDE26B2D}</ProjectGuid>
