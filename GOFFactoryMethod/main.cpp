@@ -1,4 +1,4 @@
-
+// GoF Factory Method
 #include "concreteframework.h"
 #include "concreteproduct.h"
 

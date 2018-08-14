@@ -1,18 +1,24 @@
 #pragma once
 
+#include <iostream>
 #include "shape.h"
-#include "point.h"
+#include "shapefactory.h"
 
 class Line : public Shape {
 public:
+    static const int shapeID = 0;
+    using xPoint = int;
+    using yPoint = int;
+
     Line() : maxPoints{ 2 } {};
-    Line(Point, Point);
-    const std::vector<std::reference_wrapper<Point>> getPoints() const;
-    void addPoint(Point);
-    void store(std::ostream& ost) override;
-    void load(std::istream& ist) override;
+    //const std::vector<std::pair<xPoint, yPoint>> getPoints() const;
+
+    void store(std::ostream&) override;
+    void load(std::istream&) override;
     void draw() override;
 private:
-    int maxPoints;
-    std::vector<std::reference_wrapper<Point>> points_;
+    unsigned maxPoints;
+    std::vector<std::pair<xPoint, yPoint>> points_;
+
+    void addPoint(xPoint, yPoint);
 };

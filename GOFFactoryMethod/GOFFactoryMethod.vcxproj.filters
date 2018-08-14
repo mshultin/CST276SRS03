@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="abstractproduct.h">
+    <ClInclude Include="abstractframework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="abstractframework.h">
+    <ClInclude Include="abstractproduct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="concreteframework.h">
@@ -29,10 +29,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="abstractproduct.cpp">
+    <ClCompile Include="abstractframework.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="abstractframework.cpp">
+    <ClCompile Include="abstractproduct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="concreteframework.cpp">

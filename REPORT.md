@@ -2,13 +2,13 @@
 
 Date Validation Strategy/Template Method  
 
-Name: <Not your Pokemon Class ID>  
+Name: Mark Hultin  
 
 ---
-Issues:  
+Issues: Failed to meet deadline for the Polygon, Rectangle, and Composite classes (there is no GoF Composite in the CompositeFactory project). Loading and Storing of JSON files is not implemented.
 
 
-Notes:  
+Notes:  This was a fun project. The Modern C++ Design section on the Factory Method was clear and easy to follow. A single ShapeFactory, as a Singleton, was implemented.
 
 
 ###
